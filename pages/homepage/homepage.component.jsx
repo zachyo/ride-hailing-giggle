@@ -1,4 +1,6 @@
-import Header from "../../components/header/header.component";
+import React from "react";
+
+// import Header from "../../components/header/header.component";
 
 const Homepage = () => {
   return (
