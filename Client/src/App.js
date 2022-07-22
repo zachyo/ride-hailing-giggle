@@ -1,8 +1,9 @@
+import Homepage from "./pages/homepage/homepage.component";
 
 function App() {
   return (
     <div className="App">
-        <h1> Hello Word </h1>
+        <Homepage/>
     </div>
   );
 }
