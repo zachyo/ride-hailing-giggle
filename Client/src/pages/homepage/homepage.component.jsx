@@ -1,3 +1,5 @@
+import contexi from '../../assets/contexi.png'
+
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -7,8 +9,9 @@ const Homepage = () => {
           Your first choice <br />
           for traveling anywhere
         </h1>
-        <div className="left-img"><img src="../assets/contexi.jpg" alt="smiling girl" /></div> 
-
+        <div className="left-img">
+          <img src={contexi} alt="" />
+        </div>
       </div>
     </div>
   );
