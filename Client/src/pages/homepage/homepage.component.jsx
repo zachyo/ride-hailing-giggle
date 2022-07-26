@@ -7,7 +7,7 @@ const Homepage = () => {
         <p className="welcome">welcome to contexi</p>
         <h1>
           Your first choice <br />
-          for traveling anywhere
+          for traveling anywhere nnnnnnnnnnnnnnnnnnnnnnn
         </h1>
         <div className="left-img">
           <img src={contexi} alt="" />
