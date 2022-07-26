@@ -5,7 +5,7 @@ const Homepage = () => {
     <div className="homepage">
       <div className="info tac">
         <p className="welcome">welcome to contexi</p>
-        <h1>
+        <h1 className='text-4xl'>
           Your first choice <br />
           for traveling anywhere nnnnnnnnnnnnnnnnnnnnnnn
         </h1>
