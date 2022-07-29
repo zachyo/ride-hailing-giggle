@@ -5,9 +5,9 @@ const Homepage = () => {
     <div className="homepage">
       <div className="info tac">
         <p className="welcome">welcome to contexi</p>
-        <h1 className='text-4xl'>
+        <h1 className='text-5xl'>
           Your first choice <br />
-          for traveling anywhere nnnnnnnnnnnnnnnnnnnnnnn
+          for traveling anywhere
         </h1>
         <div className="left-img">
           <img src={contexi} alt="" />
