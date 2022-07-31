@@ -1,4 +1,4 @@
-import OnBoarding1 from "./components/book-a-ride/bookRide.component";
+import OnBoarding1 from "./components/onboarding/onboarding.component";
 import Homepage from "./pages/homepage/homepage.component";
 
 function App() {
