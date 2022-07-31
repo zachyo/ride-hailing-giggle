@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
         <Homepage/>
-        {/* <OnBoarding1/> */}
+        <OnBoarding1/>
     </div>
   );
 }
