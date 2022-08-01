@@ -1,0 +1,3 @@
+.booking .low {
+    clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+}
