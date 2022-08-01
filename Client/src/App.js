@@ -6,7 +6,7 @@ import Homepage from "./pages/homepage/homepage.component";
 function App() {
   return (
     <div className="App">
-        <Homepage/>
+        {/* <Homepage/> */}
         <OnBoarding1/>
     </div>
   );
