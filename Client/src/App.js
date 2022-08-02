@@ -8,7 +8,7 @@ import Rides from "./components/rides/rides";
 //mobile first webapp
 function App() {
   return (
-    <div className="App">
+    <div className="App p-16">
       {/* <Homepage/> */}
       <Routes>
         <Route exact path="/" element={<OnBoarding1 />} />
