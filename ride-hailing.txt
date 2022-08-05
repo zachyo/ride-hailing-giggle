@@ -1,0 +1,14 @@
+next tasks
+ride with lyft
+drive with lyft
+get estimate lyft
+uber safety
+reviews carousel
+footer
+
+
+try break them into seperate pages
+include lagos rides car and cards section
+newsletter section
+picture section
+partners section
