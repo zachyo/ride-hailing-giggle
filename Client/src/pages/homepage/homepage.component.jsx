@@ -2,6 +2,9 @@ import contexi from "../../assets/contexi.png";
 import clock from '../../assets/icons8-clock-36.png'
 import money from "../../assets/icons8-get-cash-36.png";
 import address from "../../assets/icons8-address-36.png";
+import a from "../../assets/icons8-address-24.png";
+import Estimate from "../../components/estimate";
+
 
 
 
@@ -65,6 +68,33 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className="ride  container flex mx-auto items-center justify-between space-x-30 w-2/3 py-12 text-darkBlue">
+        <div className="ride-left flex flex-col space-y-8">
+          <h1 className="font-bold text-lg mb-8">RIDE WITH weRide </h1>
+          <p className="font-bold text-4xl mb-8">
+            Ready, set, go <br /> in just a few quick taps
+          </p>
+          <p>No matter your destination, we’ll get you where you need to go</p>
+          <p className="font-bold flex">
+            <img src={a} alt="" className="mr-6" /> Get a reliable ride in
+            minutes
+          </p>
+          <span className="font-bold flex">
+            <img src={a} alt="" className="mr-6" />
+            Know that your driver is wearing a mask
+          </span>
+          <p className="font-bold flex mb-24">
+            <img src={a} alt="" className="mr-6" />
+            Schedule your ride in advance
+          </p>
+          <div className="button">
+            <button className="mt-8 rounded-full w-1/3 p-2 px-0 text-lg bg-darkBlue text-white font-bold">
+              Get a ride
+            </button>
+          </div>
+        </div>
+      </div>
+      <Estimate/>
     </div>
   );
 };
