@@ -6,7 +6,6 @@ import calendar from "../../assets/icons8-edit-calendar-24.png";
 import mask from "../../assets/icons8-protection-mask-24.png";
 import man from "../../assets/icons8-man-with-money-24.png";
 import phone from "../../assets/phone.png";
-import driver from "../../assets/driver.jpg";
 
 
 import Estimate from "../../components/estimate";
@@ -39,11 +38,15 @@ const Homepage = () => {
           />
         </div>
       </div>
-      <div className="whyUs mt-16 bg-white py-24 ">
+      <div className="whyUs mt-10 bg-white py-20 ">
         <div className="w-2/3 mx-auto ">
-          <h1 className="font-bold text-4xl  text-black mb-16">
+          <h1 className="font-bold text-4xl  text-black mb-6">
             Why use the weRide App?
           </h1>
+          <div className="flex items-center justify-center">
+            <img src={require("../../assets/cap.png")} alt="" />
+          </div>
+
           <div className="uses flex space-x-16">
             <div className="uses1 w-2/6">
               <img src={clock} alt="time" />
@@ -104,7 +107,11 @@ const Homepage = () => {
         </div>
       </div>
       <div className="drive py-12 flex bg-white mx-auto items-center justify-center space-x-16">
-          <img src={require("../../assets/driver.jpg")} alt="" className="rounded-xl" />
+        <img
+          src={require("../../assets/driver.jpg")}
+          alt=""
+          className="rounded-xl"
+        />
         <div className="ride-left flex flex-col space-y-8 py-6">
           <h1 className="font-bold text-lg mb-4">DRIVE WITH weRide </h1>
           <p className="font-bold text-4xl mb-8">
@@ -145,8 +152,8 @@ const Homepage = () => {
           </div>
 
           <div className="button">
-            <button className="mt-8 rounded-full w-1/3 p-2 px-0 text-lg bg-black text-white font-bold">
-              Get a ride
+            <button className="mt-8 rounded-full w-1/3 p-3 text-lg bg-black text-white font-bold">
+              Apply to drive
             </button>
           </div>
         </div>
