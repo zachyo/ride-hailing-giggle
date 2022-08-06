@@ -1,8 +1,8 @@
 next tasks
-ride with lyft
-drive with lyft
-get estimate lyft
-uber safety
+ride with lyft = done
+drive with lyft = done
+get estimate lyft = done
+uber safety = done
 reviews carousel
 footer
 
