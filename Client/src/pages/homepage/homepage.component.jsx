@@ -9,6 +9,7 @@ import phone from "../../assets/phone.png";
 
 
 import Estimate from "../../components/estimate";
+import {Link } from 'react-router-dom'
 
 
  
@@ -159,6 +160,56 @@ const Homepage = () => {
         </div>
       </div>
       <Estimate />
+      <div className="safety bg-darkBlue text-white py-20 ">
+        <div className="w-2/3 mx-auto ">
+          <h1 className="font-bold text-4xl mb-6">Your safety matters</h1>
+          <p className="mb-12">
+            Peace of mind is designed into your experience.
+          </p>
+          <div className="uses flex space-x-16 mb-16">
+            <div className="uses1 w-2/6">
+              <img
+                src={require("../../assets/icons8-protect-48.png")}
+                alt="time"
+              />
+              <h1 className="text-2xl font-semibold my-3">Safety features </h1>
+              <p className="text-1xl">
+                Tell your loved ones where you are. Get help with the tap of a
+                button. Technology makes travel safer than ever before.
+              </p>
+            </div>
+            <div className="uses2 w-2/6">
+              <img
+                src={require("../../assets/icons8-user-groups-48.png")}
+                alt="money"
+              />
+              <h1 className="text-2xl font-semibold my-3">
+                An inclusive community
+              </h1>
+              <p className="text-1xl">
+                We are millions of riders and drivers who share Community
+                Guidelines and depend on one another to do the right thing.
+              </p>
+            </div>
+            <div className="uses3 w-2/6">
+              <img
+                src={require("../../assets/icons8-online-support-48.png")}
+                alt="location"
+              />
+              <h1 className="text-2xl font-semibold my-3">
+                Help if you need it
+              </h1>
+              <p className="text-1xl">
+                Get 24/7 support in the app for any questions or safety concerns
+                you might have.
+              </p>
+            </div>
+          </div>
+          <Link to="safety" className=" border-0 border-b-2 pb-1">
+            Learn more about safety &#8594;
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
