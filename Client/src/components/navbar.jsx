@@ -1,6 +1,6 @@
 // import {Link} from react-router-dom;
-import down from '../../assets/white-down.png'
-import user from "../../assets/user2.png";
+import down from '../../src/assets/white-down.png'
+import user from "../../src/assets/user2.png";
 
 
 const Navbar = () => {
