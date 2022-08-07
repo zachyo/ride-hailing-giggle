@@ -1,4 +1,4 @@
-import CustomButton from "../custom-button/custom-button.component";
+import CustomButton from "./custom-button/custom-button.component";
 
 const Header = () => {
     return (
