@@ -10,6 +10,7 @@ import phone from "../../assets/phone.png";
 
 import Estimate from "../../components/estimate";
 import {Link } from 'react-router-dom'
+import Reviews from "../../components/carousel";
 
 
  
@@ -210,6 +211,7 @@ const Homepage = () => {
           </Link>
         </div>
       </div>
+      <Reviews/>
     </div>
   );
 };
