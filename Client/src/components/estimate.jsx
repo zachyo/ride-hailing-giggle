@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Estimate = () => {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: 'AIzaSyAAx_FB8Sh4GSeuu3cfvIcyD7Ykbg6DmaI',
     libraries: ["places"],
   });
 
@@ -34,6 +34,7 @@ const Estimate = () => {
       travelMode: google.maps.TravelMode.DRIVING
     })
     SetDirectionResult(results)
+    console.log(directionResult)
     SetDistance(results.routes[0].legs[0].distance.text)
     SetDuration(results.routes[0].legs[0].duration_in_traffic.text);
 
@@ -43,6 +44,8 @@ const Estimate = () => {
     <div className="estimate flex mx-auto items-center justify-between w-2/3 py-10">
       <h1 className="font-bold text-3xl ">
         Ready to roll? <br /> Get an estimate.
+        <p>{distance}</p>
+        <p>{duration}</p>
       </h1>
       <div className="flex space-x-8">
         <Autocomplete>
@@ -61,7 +64,7 @@ const Estimate = () => {
             ref={destinationRef}
           />
         </Autocomplete>
-        <button className="border border-black p-2 px-4 rounded-full font-bold text-white bg-black">
+        <button className="border border-black p-2 px-4 rounded-full font-bold text-white bg-black" onClick={calcRoute}>
           Get estimate
         </button>
       </div>
