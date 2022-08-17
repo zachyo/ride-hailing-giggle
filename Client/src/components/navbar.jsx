@@ -27,7 +27,7 @@ const Navbar = () => {
         <a href="faq" className="p-2">
           FAQ's
         </a>
-        <a href="booking" className="flex p-2 text-base ">
+        <a href="ride/login" className="flex p-2 text-base ">
           <img src={user} alt="user" className='pr-3'/> Log In
         </a>
         <a
