@@ -5,6 +5,7 @@ import Homepage from "./pages/homepage/homepage.component";
 import Navbar from "./components/navbar";
 import BookRide from "./components/booking";
 import Rides from "./components/rides";
+import Footer from "./components/footer";
 
 //mobile first webapp
 function App() {
@@ -16,9 +17,10 @@ function App() {
         <Route exact path="/" element={<OnBoarding1 />} />
         <Route path="/book" element={<BookRide/>} />
         <Route path="/rides" element={<Rides/>} />
-        <Route path="/login" element={<Login />} />
+        <Route path="ride/login" element={<Login />} />
         <Route path="/ride" element={<Homepage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
