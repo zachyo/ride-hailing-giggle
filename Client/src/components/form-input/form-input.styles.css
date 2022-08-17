@@ -1,0 +1,14 @@
+
+.form-input:focus::placeholder {
+  opacity: 0;
+}
+.form-input:focus ~ .form-input-label {
+  opacity: 1;
+  top: -28px;
+  color: black;
+}
+
+.form-input-label {
+  pointer-events: none;
+}
+
