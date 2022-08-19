@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import BookRide from "./components/booking";
 import Rides from "./components/rides";
 import Footer from "./components/footer";
+import SignUp from "./pages/signup/signup";
 
 //mobile first webapp
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/book" element={<BookRide/>} />
         <Route path="/rides" element={<Rides/>} />
         <Route path="ride/login" element={<Login />} />
+        <Route path="ride/signup" element={<SignUp/>} />
         <Route path="/ride" element={<Homepage />} />
       </Routes>
       <Footer />
