@@ -10,6 +10,7 @@ const FormInput = ({label, HandleChange,placeholder,value, ...otherInputProps}) 
           pattern={otherInputProps.pattern}
           title={otherInputProps.title}
           type={otherInputProps.type}
+          
         />
         {label ? (
           <label
