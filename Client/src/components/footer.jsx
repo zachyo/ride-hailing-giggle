@@ -1,3 +1,10 @@
+import facebook from '../assets/icons8-facebook-24.svg'
+import twitter from "../assets/icons8-twitter-24.svg";
+import youtube from '../assets/icons8-youtube-24.png'
+import linkedin from "../assets/icons8-linkedin-2-24.svg";
+import instagram from '../assets/icons8-instagram-24.svg'
+
+
 const Footer = () => {
   return (
     <div className="footer text-white bg-darkBlue py-20">
@@ -35,14 +42,37 @@ const Footer = () => {
           <a href="/faq">FAQ</a>
         </div>
       </div>
-      <div className="footer-last mt-20 flex mx-auto w-3/4 justify-between px-8">
+      <div className="socials w-3/4 mx-auto px-8 mt-10 flex space-x-12">
+        <a href="facebook">
+          <img src={facebook} alt="" />
+        </a>
+        <a href="twitter">
+          <img src={twitter} alt="" />
+        </a>
+        <a href="youtube">
+          <img src={youtube} alt="" />
+        </a>
+        <a href="linkedin">
+          <img src={linkedin} alt="" />
+        </a>
+        <a href="instagram">
+          <img src={instagram} alt="" />
+        </a>
+      </div>
+      <div className="footer-last mt-12 flex mx-auto w-3/4 justify-between px-8">
         <div className="footer-last_left">
           <p>© 2022 weRide Technologies Inc.</p>
         </div>
         <div className="footer-last_right flex space-x-8 text-homeBlue text-md">
-          <a href="/"  className="hover:underline">Privacy</a>
-          <a href="/" className="hover:underline">Accesibility</a>
-          <a href="/" className="hover:underline">Terms</a>
+          <a href="/" className="hover:underline">
+            Privacy
+          </a>
+          <a href="/" className="hover:underline">
+            Accesibility
+          </a>
+          <a href="/" className="hover:underline">
+            Terms
+          </a>
         </div>
       </div>
     </div>
