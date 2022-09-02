@@ -1,11 +1,11 @@
-import contexi from "../../assets/contexi.png";
-import clock from '../../assets/icons8-clock-36.png'
-import money from "../../assets/icons8-get-cash-36.png";
-import address from "../../assets/icons8-address-36.png";
-import calendar from "../../assets/icons8-edit-calendar-24.png";
-import mask from "../../assets/icons8-protection-mask-24.png";
-import man from "../../assets/icons8-man-with-money-24.png";
-import phone from "../../assets/phone.png";
+import contexi from "../../assets/images/contexi.png";
+import clock from '../../assets/icons/icons8-clock-36.png'
+import money from "../../assets/icons/icons8-get-cash-36.png";
+import address from "../../assets/icons/icons8-address-36.png";
+import calendar from "../../assets/icons/icons8-edit-calendar-24.png";
+import mask from "../../assets/icons/icons8-protection-mask-24.png";
+import man from "../../assets/icons/icons8-man-with-money-24.png";
+import phone from "../../assets/images/phone.png";
 
 
 import Estimate from "../../components/estimate";
@@ -46,7 +46,7 @@ const Homepage = () => {
             Why use the weRide App?
           </h1>
           <div className="flex items-center justify-center">
-            <img src={require("../../assets/cap.png")} alt="" />
+            <img src={require("../../assets/images/cap.png")} alt="" />
           </div>
 
           <div className="uses flex space-x-16">
@@ -110,7 +110,7 @@ const Homepage = () => {
       </div>
       <div className="drive py-12 flex bg-white mx-auto items-center justify-center space-x-16">
         <img
-          src={require("../../assets/driver.jpg")}
+          src={require("../../assets/images/driver.jpg")}
           alt=""
           className="rounded-xl"
         />
@@ -121,7 +121,7 @@ const Homepage = () => {
           </p>
           <div className="flex">
             <img
-              src={require("../../assets/icons8-stack-of-money-24.png")}
+              src={require("../../assets/icons/icons8-stack-of-money-24.png")}
               alt=""
               className="mr-4 h-1/2 mt-1"
             />{" "}
@@ -132,7 +132,7 @@ const Homepage = () => {
           </div>
           <div className="flex">
             <img
-              src={require("../../assets/icons8-future-24.png")}
+              src={require("../../assets/icons/icons8-future-24.png")}
               alt=""
               className="mr-4 h-1/2 mt-1"
             />{" "}
@@ -143,7 +143,7 @@ const Homepage = () => {
           </div>
           <div className="flex">
             <img
-              src={require("../../assets/icons8-lightning-bolt-24.png")}
+              src={require("../../assets/icons/icons8-lightning-bolt-24.png")}
               alt=""
               className="mr-4 h-1/2 mt-1"
             />{" "}
@@ -162,7 +162,7 @@ const Homepage = () => {
       </div>
       <Estimate />
       <div className="safety bg-darkBlue text-white py-20 ">
-        <div className="w-2/3 mx-auto ">
+        <div className="container mx-auto w-2/3">
           <h1 className="font-bold text-4xl mb-6">Your safety matters</h1>
           <p className="mb-12">
             Peace of mind is designed into your experience.
@@ -170,7 +170,7 @@ const Homepage = () => {
           <div className="uses flex space-x-16 mb-16">
             <div className="uses1 w-2/6">
               <img
-                src={require("../../assets/icons8-protect-48.png")}
+                src={require("../../assets/icons/icons8-protect-48.png")}
                 alt="time"
               />
               <h1 className="text-2xl font-semibold my-3">Safety features </h1>
@@ -181,7 +181,7 @@ const Homepage = () => {
             </div>
             <div className="uses2 w-2/6">
               <img
-                src={require("../../assets/icons8-user-groups-48.png")}
+                src={require("../../assets/icons/icons8-user-groups-48.png")}
                 alt="money"
               />
               <h1 className="text-2xl font-semibold my-3">
@@ -194,7 +194,7 @@ const Homepage = () => {
             </div>
             <div className="uses3 w-2/6">
               <img
-                src={require("../../assets/icons8-online-support-48.png")}
+                src={require("../../assets/icons/icons8-online-support-48.png")}
                 alt="location"
               />
               <h1 className="text-2xl font-semibold my-3">
