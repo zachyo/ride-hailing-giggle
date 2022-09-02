@@ -1,4 +1,4 @@
-import reg from "../../assets/reg.png";
+import reg from "../../assets/images/reg.png";
 import "./onboarding.css";
 
 const OnBoarding1 = () => {
