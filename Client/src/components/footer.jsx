@@ -1,8 +1,8 @@
-import facebook from '../assets/icons8-facebook-24.svg'
-import twitter from "../assets/icons8-twitter-24.svg";
-import youtube from '../assets/icons8-youtube-24.png'
-import linkedin from "../assets/icons8-linkedin-2-24.svg";
-import instagram from '../assets/icons8-instagram-24.svg'
+import facebook from '../assets/icons/icons8-facebook-24.svg'
+import twitter from "../assets/icons/icons8-twitter-24.svg";
+import youtube from '../assets/icons/icons8-youtube-24.png'
+import linkedin from "../assets/icons/icons8-linkedin-2-24.svg";
+import instagram from '../assets/icons/icons8-instagram-24.svg'
 
 
 const Footer = () => {
