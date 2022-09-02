@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import FormInput from "../../components/form-input/form-input.component";
+import './login.css'
 
 const Login = () => {
   let phone;
@@ -13,9 +14,11 @@ const Login = () => {
     password = value;
   };
   return (
-    <div className="login bg-homeBlue  flex items-center justify-center">
-      <div className="text-center py-24 px-12 rounded-2xl">
-        <h1 className="font-bold text-5xl mb-24 text-darkBlue  border-darkBlue">weRide</h1>
+    <div className="login   flex items-center justify-center">
+      <div className="text-center py-24 px-12 rounded-2xl bg-homeBlue m-24">
+        <h1 className="font-bold text-5xl mb-24 text-darkBlue  border-darkBlue">
+          weRide
+        </h1>
         <div className="">
           <form action="" className="flex flex-col w-80">
             <FormInput
@@ -50,11 +53,10 @@ const Login = () => {
             >
               Login
             </Link>
-            <p className="relative flex justify-between px-4 mt-8"> Don't have an account?
-              <a
-                href="signup"
-                className=" text-darkBlue hover:underline"
-              >
+            <p className="relative flex justify-between px-4 mt-8">
+              {" "}
+              Don't have an account?
+              <a href="signup" className=" text-darkBlue hover:underline">
                 {" "}
                 Sign up
               </a>
