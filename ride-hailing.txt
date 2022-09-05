@@ -4,7 +4,9 @@ drive with lyft = done
 get estimate lyft = done
 uber safety = done
 reviews carousel
-footer
+footer = done
+login page
+signup page
 
 
 try break them into seperate pages
