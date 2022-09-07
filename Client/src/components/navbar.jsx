@@ -27,15 +27,15 @@ const Navbar = () => {
         <Link to="faq" className="p-2">
           FAQ's
         </Link>
-        <Link to="ride/login" className="flex p-2 text-base ">
+        <Link to="drive/login" className="flex p-2 text-base ">
           <img src={user} alt="user" className='pr-3'/> Log In
         </Link>
-        <a
-          href="signup"
+        <Link
+          to="drive/signup"
           className="p-2 px-4 text-darkBlue bg-white rounded-full"
         >
           Sign Up
-        </a>
+        </Link>
       </div>
     </div>
   );
