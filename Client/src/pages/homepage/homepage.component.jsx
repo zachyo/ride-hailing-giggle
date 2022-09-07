@@ -99,9 +99,12 @@ const Homepage = () => {
             Schedule your ride in advance
           </p>
           <div className="button">
-            <button className="mt-8 rounded-full w-1/3 p-2 px-0 text-lg bg-darkBlue text-white font-bold">
+            <Link
+              to="ride/login"
+              className=" rounded-full w-1/3 text-lg bg-darkBlue text-white font-bold p-3"
+            >
               Get a ride
-            </button>
+            </Link>
           </div>
         </div>
         <div className="phone">
@@ -211,7 +214,7 @@ const Homepage = () => {
           </Link>
         </div>
       </div>
-      <Reviews/>
+      <Reviews />
     </div>
   );
 };
