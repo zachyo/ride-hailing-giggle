@@ -1,4 +1,4 @@
-import CustomButton from "../../components/custom-button/custom-button.component";
+// import CustomButton from "../../components/custom-button/custom-button.component";
 import FormInput from "../../components/form-input/form-input.component";
 
 const Step1 = ({ handleChange, handleStep }) => {
@@ -28,7 +28,7 @@ const Step1 = ({ handleChange, handleStep }) => {
       />
       <label htmlFor="noCar">I need a car</label>
       <FormInput
-        type="tel"
+        type="number"
         name="phoneNumber"
         placeholder="Mobile Phone Number"
         onChange={handleChange}
@@ -41,8 +41,8 @@ const Step1 = ({ handleChange, handleStep }) => {
       >
         Next
       </button>
-      <CustomButton onClick={handleStep}>Next</CustomButton>
-      <input type="checkbox" name="Terms of Service" id="terms" required />
+      {/* <CustomButton onClick={handleStep}>Next</CustomButton> */}
+      <input type="checkbox" name="Terms of Service" id="terms" required className="mr-4"/>
       <label htmlFor="terms">
         I agree to weRide's{" "}
         <a href="terms" className="underline">
