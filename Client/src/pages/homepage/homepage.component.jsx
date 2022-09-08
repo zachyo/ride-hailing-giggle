@@ -11,34 +11,41 @@ import phone from "../../assets/images/phone.png";
 import Estimate from "../../components/estimate";
 import {Link } from 'react-router-dom'
 import Reviews from "../../components/carousel";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 
  
 
 // mobile first
 const Homepage = () => {
+
+  // ScrollReveal().reveal
   return (
     <div className="homepage bg-homeBlue">
       <div className="header container flex mx-auto items-center justify-between space-x-30 w-2/3">
         <div className="header-left">
-          <h1 className="welcome text-6xl font-bold text-darkBlue mb-12">
-            Always the ride <br /> you want
-          </h1>
-          <p className="text-2xl mb-12 text-darkBlue">
-            Request a ride, hop in, and relax
-          </p>
-          <button className="bg-darkBlue text-white font-bold p-3 px-4 rounded-lg hover:text-darkBlue hover:bg-homeBlue border-2 border-darkBlue">
-            Sign Up to ride
-          </button>
+          <Fade left>
+            <h1 className="welcome text-6xl font-bold text-darkBlue mb-12">
+              Always the ride <br /> you want
+            </h1>
+            <p className="text-2xl mb-12 text-darkBlue">
+              Request a ride, hop in, and relax
+            </p>
+            <button className="bg-darkBlue text-white font-bold p-3 px-4 rounded-lg hover:text-darkBlue hover:bg-homeBlue border-2 border-darkBlue">
+              Sign Up to ride
+            </button>
+          </Fade>
         </div>
-
-        <div className="header-right my-12">
-          <img
-            src={contexi}
-            alt=""
-            className="w-5/6 rounded-2xl outline outline-darkBlue outline-offset-4 m-0"
-          />
-        </div>
+        <Zoom>
+          <div className="header-right my-12">
+            <img
+              src={contexi}
+              alt=""
+              className="w-5/6 rounded-2xl outline outline-darkBlue outline-offset-4 m-0"
+            />
+          </div>
+        </Zoom>
       </div>
       <div className="whyUs mt-10 bg-white py-20 ">
         <div className="w-2/3 mx-auto ">
