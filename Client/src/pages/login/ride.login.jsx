@@ -37,7 +37,7 @@ const LoginR = () => {
               type="number"
               name="phoneNumber"
               label="Password"
-              placeholder="password"
+              placeholder="Password"
               onChange={handleChange}
               required
             />
