@@ -1,0 +1,10 @@
+#slider::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+#slider {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooth;
+}
