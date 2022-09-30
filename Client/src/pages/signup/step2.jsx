@@ -1,7 +1,7 @@
 import FormInput from "../../components/form-input/form-input.component";
 import CustomButton from "../../components/custom-button/custom-button.component";
 
-const Step2 = ({handleChange}) => {
+const Step2 = ({handleChange, handleSubmit}) => {
   return (
     <div className="my-4">
       <p className="mb-8">
@@ -26,7 +26,7 @@ const Step2 = ({handleChange}) => {
         />
         <FormInput
           type="email"
-          name="email address"
+          name="email"
           placeholder="Email"
           onChange={handleChange}
           required
@@ -49,7 +49,7 @@ const Step2 = ({handleChange}) => {
           className="rounded-lg w-72 p-3 shadow-lg mt-3 mb-10 bg-white border border-darkBlue"
         />
       </div>
-      <CustomButton>Submit</CustomButton>
+      <CustomButton onClick={handleSubmit}>Submit</CustomButton>
     </div>
   );
 };
