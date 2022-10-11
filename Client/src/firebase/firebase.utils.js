@@ -24,11 +24,17 @@ const db = getFirestore(app);
 
 export const createUserProfileDoc = async (user, additionalData) => {
   if (!user) return;
-  const createdAt = new Date();
+  const signedUpAt = new Date();
+  const { car, firstName, lastName, email, phoneNumber, referralCode } = user;
   try {
     const userRef = await addDoc(collection(db, "users"), {
-      createdAt,
-      user,
+      signedUpAt,
+      car,
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      referralCode,
       ...additionalData,
     });
 
