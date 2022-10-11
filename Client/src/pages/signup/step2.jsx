@@ -42,7 +42,7 @@ const Step2 = ({handleChange, handleSubmit}) => {
         />
         <FormInput
           type="number"
-          name="referral code"
+          name="referralCode"
           placeholder="Referal Code (Optional)"
           onChange={handleChange}
           required
