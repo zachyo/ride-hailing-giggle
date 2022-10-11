@@ -1,11 +1,13 @@
 // import { Link } from "react-router-dom";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { CurrentUserContext } from "../../contexts/currentUser.context";
 import { auth, createUserProfileDoc } from "../../firebase/firebase.utils";
 import Step1 from "./step1";
 import Step2 from "./step2";
 
 const SignUp = () => {
+  const { setUservalue } = useContext(CurrentUserContext);
   let phone;
   const [signUpDetails, setSignUpDetails] = useState({});
 
@@ -31,8 +33,8 @@ const SignUp = () => {
         console.log(userCredential);
         createUserProfileDoc(signUpDetails);
 
-        // const user = userCredential.user;
-        // ...
+        const user = userCredential.user;
+        setUservalue(user);
       })
       .catch((error) => {
         const errorCode = error.code;
