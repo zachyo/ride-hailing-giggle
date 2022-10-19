@@ -43,7 +43,7 @@ const Reviews = () => {
           {slides.map((slide, index) => {
             return (
               <Fade left>
-                <div className="slider-card text-center inline-block bg-white rounded-xl mx-2 text-center p-2">
+                <div className="slider-card inline-block bg-white rounded-xl mx-2 text-center p-2">
                   <img src={av} alt="1" className="mx-auto" />
                   <p className="mt-4 w-64">
                     “As a student, it’s hard to complete my class work around a
